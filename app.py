@@ -1,8 +1,3 @@
-"""
-S3 to GCS Replication Service
-Event-driven worker for multi-cloud file replication
-"""
-
 from flask import Flask, request, jsonify
 import boto3
 from google.cloud import storage
